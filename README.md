@@ -5,7 +5,7 @@
 * [Icons](#icons)
 
 ## General info
-Webpage template - Landing Page
+Sig-Mont Webpage
 
 ## Technologies
 Project was created with:
@@ -14,7 +14,4 @@ Project was created with:
 * JavaScript
 
 ## Live :star2:
-https://goldipl.github.io/WebPage-Template/
-
-## Icons
-Icons made by <a href="https://www.flaticon.com/authors/wanicon" title="wanicon">wanicon</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
+https://goldipl.github.io/sigmont_webpage/
