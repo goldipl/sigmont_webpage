@@ -1,0 +1,14 @@
+@import 'variables';
+footer {
+    text-align: center;
+}
+
+.footerSection {
+    background: none;
+    background-color: $redColor01;
+    color: $whiteColor01;
+}
+
+.footerCopyright {
+    padding: 16px;
+}

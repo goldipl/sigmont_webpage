@@ -1,0 +1,80 @@
+@import 'reset';
+@import 'variables';
+@import 'nav';
+@import 'header';
+@import 'swiper';
+@import 'buttons';
+@import 'sections';
+@import 'footer';
+body {
+    font-family: 'Readex Pro', sans-serif;
+    font-weight: 300;
+    background-color: $whiteColor01;
+    color: $blackColor01;
+    font-size: 18px;
+}
+
+h1 {
+    position: relative;
+}
+
+h1::after {
+    display: block;
+    content: '';
+    width: 60px;
+    height: 8px;
+    background: $redColor01;
+    position: absolute;
+    bottom: 4px;
+    left: 0;
+    z-index: -1;
+}
+
+p {
+    margin: 24px 0;
+}
+
+.wrapper {
+    width: 70vw;
+    margin: 40px auto;
+}
+
+.textImageContainer {
+    display: flex;
+}
+
+.textImageContainer .imageContainer img {
+    width: 320px;
+    height: auto;
+    padding: 40px;
+    border-top: 4px dotted $redColor01;
+    border-bottom: 4px dotted $redColor01;
+}
+
+.textImageContainer .textContainer {
+    width: 60%;
+}
+
+.textImageContainer .imageContainer {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    margin: 24px;
+}
+
+@media (max-width: 1000px) {
+    .textImageContainer {
+        flex-direction: column;
+    }
+    .textImageContainer .textContainer,
+    .textImageContainer .imageContainer {
+        width: 100%;
+    }
+}
+
+@media (max-width: 600px) {
+    .wrapper {
+        width: 90vw;
+    }
+}
