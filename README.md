@@ -2,7 +2,6 @@
 * [General info](#general-info)
 * [Technologies](#technologies)
 * [Live](#live)
-* [Icons](#icons)
 * [License](#license)
 
 ## General info
