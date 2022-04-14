@@ -3,6 +3,7 @@
 * [Technologies](#technologies)
 * [Live](#live)
 * [Icons](#icons)
+* [License](#license)
 
 ## General info
 Sig-Mont Webpage
@@ -15,3 +16,6 @@ Project was created with:
 
 ## Live :star2:
 https://goldipl.github.io/sigmont_webpage/
+
+## License
+Copyright © All rights reserved
