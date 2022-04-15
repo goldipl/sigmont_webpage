@@ -264,6 +264,14 @@ header.header .headerImage img {
   bottom: 0 !important;
 }
 
+.swiper-pagination-bullet-active {
+  background: #FF0000 !important;
+}
+
+.swiper-button-next:after, .swiper-button-prev:after {
+  color: #FF0000 !important;
+}
+
 section {
   margin: 40px auto;
 }
@@ -292,6 +300,7 @@ body {
   background-color: #FFFFFF;
   color: #222222;
   font-size: 18px;
+  overflow-x: hidden;
 }
 
 h1 {
