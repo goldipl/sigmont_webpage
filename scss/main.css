@@ -74,26 +74,20 @@ nav .desktopMenu li a {
 }
 
 nav .desktopMenu li a::after {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  margin: auto;
-  width: 0%;
   content: '';
-  color: transparent;
-  background: #FF0000;
-  height: 1px;
-  -webkit-transition: all 0.5s;
-  transition: all 0.5s;
+  display: block;
+  position: absolute;
+  height: 2px;
+  width: 0;
+  left: 0;
+  background-color: #FF0000;
+  -webkit-transition: width 0.3s ease-in-out;
+  transition: width 0.3s ease-in-out;
+  bottom: 0;
 }
 
 nav .desktopMenu li a:hover::after {
   width: 100%;
-}
-
-nav li {
-  text-transform: uppercase;
 }
 
 @media (max-width: 1100px) {
