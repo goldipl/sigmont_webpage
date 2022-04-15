@@ -29,6 +29,10 @@ nav .desktopMenu li {
     list-style: none;
 }
 
+nav .desktopMenu li a:hover {
+    color: $redColor01;
+} 
+
 nav .desktopMenu li::after {
     display: block;
     content: '';
