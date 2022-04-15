@@ -90,8 +90,8 @@ nav .desktopMenu li a:hover::after {
     z-index: 2;
 }
 
-.desktopMenu .desktopMenuLevel2 {
-  margin-top: -8px;
+.desktopMenu li:nth-child(2):hover .desktopMenuLevel2 {
+    margin-top: -8px;
 }
 
 .desktopMenuLevel2 .item a {
