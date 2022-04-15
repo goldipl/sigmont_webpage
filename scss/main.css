@@ -113,7 +113,7 @@ nav .desktopMenu li a:hover::after {
   color: #FF0000;
 }
 
-nav .desktopMenu .desktopMenuLevel2 li a::after {
+nav .desktopMenuLevel2 li::after {
   display: none;
 }
 
