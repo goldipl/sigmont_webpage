@@ -6,13 +6,16 @@
 @import 'buttons';
 @import 'sections';
 @import 'footer';
+body, html {
+    overflow-x: hidden;
+}
+
 body {
     font-family: 'Readex Pro', sans-serif;
     font-weight: 300;
     background-color: $whiteColor01;
     color: $blackColor01;
     font-size: 18px;
-    overflow-x: hidden;
 }
 
 h1 {

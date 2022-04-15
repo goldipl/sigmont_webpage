@@ -300,7 +300,6 @@ header.header .headerImage img {
 
 section {
   margin: 40px auto;
-  overflow-x: hidden;
 }
 
 section h1 {
@@ -321,13 +320,16 @@ footer {
   padding: 16px;
 }
 
+body, html {
+  overflow-x: hidden;
+}
+
 body {
   font-family: 'Readex Pro', sans-serif;
   font-weight: 300;
   background-color: #FFFFFF;
   color: #222222;
   font-size: 18px;
-  overflow-x: hidden;
 }
 
 h1 {
