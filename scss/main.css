@@ -256,6 +256,12 @@ nav .desktopMenuLevel2 li::after {
   text-decoration: none;
 }
 
+/* second lvl desktop menu */
+.mobileMenu .mobileMenuLevel2 .item {
+  font-size: 20px;
+}
+
+/* /second lvl desktop menu */
 @media (min-width: 1101px) {
   .mobileMenu {
     visibility: hidden !important;
