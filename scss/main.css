@@ -63,6 +63,10 @@ nav .desktopMenu li:first-of-type::after {
   display: none;
 }
 
+nav .desktopMenu li:nth-child(2) {
+  text-align: center;
+}
+
 nav .desktopMenu li a {
   position: relative;
   cursor: pointer;
