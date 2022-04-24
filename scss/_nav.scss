@@ -8,6 +8,7 @@ nav {
 
 nav a.logo {
     margin-top: 8px;
+    margin-left: 16px;
 }
 
 nav .desktopMenu {
@@ -241,4 +242,11 @@ nav .desktopMenuLevel2 li::after {
 
 .fullWidthBurger {
     margin-right: 0 !important;
+}
+
+@media (max-width: 600px) {
+    nav a.logo img {
+        width: 200px;
+        height: auto;
+    }
 }
