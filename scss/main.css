@@ -20,12 +20,7 @@ nav {
 }
 
 nav a.logo {
-  font-family: 'Lobster', cursive;
-  font-size: 40px;
-  font-weight: 600;
-  margin-left: 16px;
-  text-decoration: none;
-  color: #FF0000;
+  margin-top: 8px;
 }
 
 nav .desktopMenu {
@@ -134,12 +129,6 @@ nav .desktopMenuLevel2 li::after {
 @media (max-width: 1100px) {
   nav .desktopMenu {
     display: none;
-  }
-}
-
-@media (max-width: 600px) {
-  nav a.logo {
-    font-size: 24px;
   }
 }
 
