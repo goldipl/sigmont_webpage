@@ -50,6 +50,7 @@ nav .desktopMenu li:first-of-type::after {
 
 nav .desktopMenu li:nth-child(2) {
     text-align: center;
+    width: 170px;
 }
 
 nav .desktopMenu li a {
@@ -106,6 +107,10 @@ nav .desktopMenu li a:hover::after {
 
 nav .desktopMenuLevel2 li::after {
     display: none;
+}
+
+.desktopMenu .desktopMenuLevel2 .item {
+    width: 400px;
 }
 
 /* /second lvl desktop menu */
