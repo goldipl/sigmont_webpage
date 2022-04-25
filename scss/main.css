@@ -17,6 +17,8 @@ nav {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  width: 70vw;
+  margin: 16px auto;
 }
 
 nav a.logo {
@@ -73,7 +75,7 @@ nav .desktopMenu li a {
   list-style: none;
   color: #222222;
   text-decoration: none;
-  font-size: 24px;
+  font-size: 18px;
   font-weight: 500;
   padding: 8px;
   text-transform: uppercase;
@@ -102,6 +104,7 @@ nav .desktopMenu li a:hover::after {
   font-size: 20px;
   background: #FFFFFF;
   z-index: 2;
+  display: block;
 }
 
 .desktopMenu li:nth-child(2):hover .desktopMenuLevel2 {
@@ -127,7 +130,7 @@ nav .desktopMenuLevel2 li::after {
 }
 
 /* /second lvl desktop menu */
-@media (max-width: 1100px) {
+@media (max-width: 1500px) {
   nav .desktopMenu {
     display: none;
   }
@@ -135,8 +138,8 @@ nav .desktopMenuLevel2 li::after {
 
 .hamburger {
   position: absolute;
-  right: 10px;
-  top: 16px;
+  right: 15vw;
+  top: 32px;
   z-index: 9999;
   width: 40px;
   height: 40px;
@@ -181,7 +184,7 @@ nav .desktopMenuLevel2 li::after {
   transform: rotate(-45deg) translateX(6px) translateY(-10px);
 }
 
-@media (max-width: 1100px) {
+@media (max-width: 1500px) {
   .hamburger {
     visibility: visible;
     opacity: 1;
@@ -261,7 +264,7 @@ nav .desktopMenuLevel2 li::after {
 }
 
 /* /second lvl desktop menu */
-@media (min-width: 1101px) {
+@media (min-width: 1501px) {
   .mobileMenu {
     visibility: hidden !important;
   }
