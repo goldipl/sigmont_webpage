@@ -318,6 +318,10 @@ section h1 {
   margin-bottom: 16px;
 }
 
+section ul li {
+  margin-left: 24px;
+}
+
 footer {
   text-align: center;
 }
