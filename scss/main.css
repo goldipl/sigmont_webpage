@@ -189,6 +189,12 @@ nav .desktopMenuLevel2 li::after {
     visibility: visible;
     opacity: 1;
   }
+  nav {
+    width: 100vw;
+  }
+  nav a.logo {
+    margin-left: 15vw;
+  }
 }
 
 .mobileMenu {
@@ -278,6 +284,12 @@ nav .desktopMenuLevel2 li::after {
   nav a.logo img {
     width: 200px;
     height: auto;
+  }
+  nav a.logo {
+    margin-left: 16px;
+  }
+  .hamburger {
+    right: 16px;
   }
 }
 
