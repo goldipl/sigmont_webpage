@@ -114,7 +114,7 @@ nav .desktopMenuLevel2 li::after {
 
 /* /second lvl desktop menu */
 
-@media (max-width: 1500px) {
+@media (max-width: 1510px) {
     nav .desktopMenu {
         display: none;
     }
@@ -168,7 +168,7 @@ nav .desktopMenuLevel2 li::after {
     transform: rotate(-45deg) translateX(6px) translateY(-10px);
 }
 
-@media (max-width: 1500px) {
+@media (max-width: 1510px) {
     .hamburger {
         visibility: visible;
         opacity: 1;
@@ -243,7 +243,7 @@ nav .desktopMenuLevel2 li::after {
 
 /* /second lvl desktop menu */
 
-@media (min-width: 1501px) {
+@media (min-width: 1511px) {
     .mobileMenu {
         visibility: hidden !important;
     }
