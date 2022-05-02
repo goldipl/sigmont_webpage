@@ -126,7 +126,8 @@ nav .desktopMenuLevel2 li::after {
 }
 
 .desktopMenu .desktopMenuLevel2 .item {
-  width: 400px;
+  width: 360px;
+  text-align: left;
 }
 
 /* /second lvl desktop menu */
