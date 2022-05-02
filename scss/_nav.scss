@@ -48,7 +48,7 @@ nav .desktopMenu li:first-of-type::after {
 
 nav .desktopMenu li:nth-child(2) {
     text-align: center;
-    width: 170px;
+    width: 140px;
 }
 
 nav .desktopMenu li a {
@@ -166,6 +166,11 @@ nav .desktopMenuLevel2 li::after {
     transition: 0.2s ease-in-out;
     -webkit-transform: rotate(-45deg) translateX(10px) translateY(-12px);
     transform: rotate(-45deg) translateX(6px) translateY(-10px);
+}
+@media (max-width: 1800px) {
+    nav .desktopMenu li {
+        padding: 0px 16px;
+    }
 }
 
 @media (max-width: 1510px) {
