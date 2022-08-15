@@ -227,7 +227,7 @@ nav .desktopMenuLevel2 li::after {
     transition: all 0.3s ease-out;
 }
 
-:hover {
+.mobileMenu .mobileMenu_li li:hover {
     color: $whiteColor01;
     background: $redColor01;
 }
